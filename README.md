@@ -40,7 +40,7 @@ your webserver.
 __IV. (Optional) unpack the userguides__
 You can unpack userguides 
 ```
-unpack-guides /var/www/html/rocks/7.0/install/rolls /var/www/html/rocks/7.0
+unpack-guides.sh /var/www/html/rocks/7.0/install/rolls /var/www/html/rocks/7.0
 ```
 
 
