@@ -134,11 +134,13 @@ wget -O -  http://central-7-0-x86-64.rocksclusters.org/install/rolls/base/7.0/x8
 ```
 and verify that when you use your roll server instead that you get the same output
 
-__VII. Other items to checkThe following may need to be checked/changed for your setup__
+__VII. Other items to check__
+
+The following may need to be checked/changed for your setup:
 
 * Firewall needs modifying on your web server to allow http access (platform sepcific)
 
-* SELinux may need to be modified or turned off (```setenforce Permissive```)
+* SELinux may need to be modified or turned off (e.g., ```setenforce Permissive```)
 
 
 
