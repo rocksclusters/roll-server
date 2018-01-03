@@ -126,20 +126,20 @@ Saving to: ‘STDOUT’
 </td></tr>
 100%[======================================>] 877         --.-K/s   in 0s     
 ```
-__VI.  Verifying that rolls directories can be listed __
+__VI.  Verifying that rolls directories can be listed__
+
 The rolls themselves need be listed. Try the following
 ```
 wget -O -  http://central-7-0-x86-64.rocksclusters.org/install/rolls/base/7.0/x86_64
 ```
 and verify that when you use your roll server instead that you get the same output
-```
 
-__VII. Other items to check __
+__VII. Other items to check
 The following may need to be checked/changed for your setup
 
-. Firewall needs modifying on your web server to allow http access (platform sepcific)
+* Firewall needs modifying on your web server to allow http access (platform sepcific)
 
-. SELinux may need to be modified or turned off (```setenforce Permissive```)
+* SELinux may need to be modified or turned off (```setenforce Permissive```)
 
 
 
