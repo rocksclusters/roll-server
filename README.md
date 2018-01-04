@@ -50,7 +50,7 @@ Then
 ```
 httpdconf.sh rocks-7-0.my.org /var/www/html/rocks/7.0
 ```
-will generate an httpds conf file. It is your responsibility to place this on the appropriate directory and restart
+will generate an httpd conf file. It is your responsibility to place this on the appropriate directory and restart
 your webserver. 
 
 __IV. (Optional) unpack the userguides__
@@ -138,7 +138,7 @@ __VII. Other items to check__
 
 The following may need to be checked/changed for your setup:
 
-* Firewall needs modifying on your web server to allow http access (platform sepcific)
+* Firewall needs modifying on your web server to allow http access (platform specific)
 
 * SELinux may need to be modified or turned off (e.g., ```setenforce Permissive```)
 
