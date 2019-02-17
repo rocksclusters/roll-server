@@ -173,3 +173,4 @@ The following may need to be checked/changed for your setup:
     ``` sh
     $ a2enmod cgi
     ```
+  * Disable `gzip` compression
